@@ -1,0 +1,13 @@
+<div class="jumbotron">
+	<div class="container">
+	  	<h3>Track A</h3>
+		<% @palestrasTrackA.each do |palestra| %>
+			<h4><%= palestra.horario %> - <%= palestra.titulo %></h4>
+		<% end %>
+
+		<h3>Track B</h3>
+		<% @palestrasTrackB.each do |palestra| %>
+			<h4><%= palestra.horario %> - <%= palestra.titulo %></h4>
+		<% end %>
+	</div>
+</div>
